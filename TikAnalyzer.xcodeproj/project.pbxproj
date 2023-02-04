@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E7B3AA3CB32FFF0A16E27E2 /* Pods_TiktokAnalyzer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8364F950CDCE829088D18DE7 /* Pods_TiktokAnalyzer.framework */; };
+		E8041FD0293B314A0028C366 /* StoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8041FCF293B314A0028C366 /* StoreVC.swift */; };
+		E8041FD2293B324D0028C366 /* PKIAPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8041FD1293B324D0028C366 /* PKIAPHandler.swift */; };
+		E8041FD4293B3BAB0028C366 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8041FD3293B3BAB0028C366 /* SettingsVC.swift */; };
+		E8041FD6293B51EF0028C366 /* UserListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8041FD5293B51EF0028C366 /* UserListVC.swift */; };
+		E8041FD8293B55310028C366 /* Gilroy-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8041FD7293B55310028C366 /* Gilroy-Semibold.ttf */; };
+		E8041FE2293B5D640028C366 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E8041FDC293B5D640028C366 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		E8041FE3293B5D640028C366 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8041FDD293B5D640028C366 /* TPKeyboardAvoidingTableView.m */; };
+		E8041FE4293B5D640028C366 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8041FDE293B5D640028C366 /* TPKeyboardAvoidingScrollView.m */; };
+		E8041FE5293B5D640028C366 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8041FE0293B5D640028C366 /* TPKeyboardAvoidingCollectionView.m */; };
+		E8041FEA293B73950028C366 /* PointDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8041FE8293B73940028C366 /* PointDetailView.xib */; };
+		E8041FEB293B73950028C366 /* PointDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8041FE9293B73940028C366 /* PointDetailView.swift */; };
+		E819871A293BB30200624B11 /* ProfileCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8198718293BB30200624B11 /* ProfileCVC.swift */; };
+		E819871B293BB30200624B11 /* ProfileCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8198719293BB30200624B11 /* ProfileCVC.xib */; };
+		E819871D293BB68100624B11 /* ProfileDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E819871C293BB68100624B11 /* ProfileDetailsVC.swift */; };
+		E819871F293BD81E00624B11 /* DownloadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E819871E293BD81E00624B11 /* DownloadVC.swift */; };
+		E85EAE4429366A9800C6F14C /* PointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85EAE4329366A9800C6F14C /* PointView.swift */; };
+		E85EAE4629366AA900C6F14C /* PointView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E85EAE4529366AA900C6F14C /* PointView.xib */; };
+		E88F2F5A293BA3C30015B020 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88F2F59293BA3C30015B020 /* ProfileVC.swift */; };
+		E88F2F5C293BA9F50015B020 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E88F2F5B293BA9F50015B020 /* Gilroy-Medium.ttf */; };
+		E88F2F5E293BACE70015B020 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E88F2F5D293BACE70015B020 /* Gilroy-Regular.ttf */; };
+		E8DC5FCC293E54E2001136FB /* DownloadDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DC5FCB293E54E2001136FB /* DownloadDetailsVC.swift */; };
+		E8EF9BA2292FAE39008734B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EF9BA1292FAE39008734B5 /* AppDelegate.swift */; };
+		E8EF9BA9292FAE39008734B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8EF9BA7292FAE39008734B5 /* Main.storyboard */; };
+		E8EF9BAB292FAE3A008734B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8EF9BAA292FAE3A008734B5 /* Assets.xcassets */; };
+		E8EF9BAE292FAE3A008734B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8EF9BAC292FAE3A008734B5 /* LaunchScreen.storyboard */; };
+		E8EF9BB7292FBF23008734B5 /* splash_top.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EF9BB6292FBF23008734B5 /* splash_top.png */; };
+		E8EF9BBD292FC0C0008734B5 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8EF9BB9292FC0C0008734B5 /* Poppins-Medium.ttf */; };
+		E8EF9BBE292FC0C0008734B5 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8EF9BBA292FC0C0008734B5 /* Poppins-Regular.ttf */; };
+		E8EF9BBF292FC0C0008734B5 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8EF9BBB292FC0C0008734B5 /* Poppins-Bold.ttf */; };
+		E8EF9BC0292FC0C0008734B5 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8EF9BBC292FC0C0008734B5 /* Poppins-SemiBold.ttf */; };
+		E8EF9BC2292FC135008734B5 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8EF9BC1292FC135008734B5 /* Poppins-ExtraBold.ttf */; };
+		E8EF9BC5292FC818008734B5 /* STTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EF9BC4292FC818008734B5 /* STTabbar.swift */; };
+		E8EF9BC8292FC83D008734B5 /* MainTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EF9BC7292FC83D008734B5 /* MainTabVC.swift */; };
+		E8EF9BCA292FC9DA008734B5 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EF9BC9292FC9DA008734B5 /* LoginVC.swift */; };
+		E8EF9BCE292FCA5F008734B5 /* ApiConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EF9BCC292FCA5F008734B5 /* ApiConfig.swift */; };
+		E8EF9BCF292FCA5F008734B5 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EF9BCD292FCA5F008734B5 /* Utility.swift */; };
+		E8EF9BD2292FD7B2008734B5 /* Gilroy-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E8EF9BD0292FD7B2008734B5 /* Gilroy-ExtraBold.otf */; };
+		E8EF9BD3292FD7B2008734B5 /* Gilroy-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = E8EF9BD1292FD7B2008734B5 /* Gilroy-Light.otf */; };
+		E8EF9BD5292FD86E008734B5 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8EF9BD4292FD86E008734B5 /* Gilroy-Bold.ttf */; };
+		FC4CB4CA2943C7D900D483DE /* tryLater.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4CB4C92943C7D900D483DE /* tryLater.swift */; };
+		FC62BD592949295500DACF47 /* DownloadVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC62BD582949295500DACF47 /* DownloadVM.swift */; };
+		FC62BD5B2949296B00DACF47 /* DownloadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC62BD5A2949296B00DACF47 /* DownloadModel.swift */; };
+		FC9EC0B9296DFADC0005AE70 /* userIdVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9EC0B8296DFADC0005AE70 /* userIdVM.swift */; };
+		FCA5EE3B29426DD100535248 /* statisticsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA5EE3A29426DD100535248 /* statisticsModel.swift */; };
+		FCA5EE3D29426DE700535248 /* StatisticVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA5EE3C29426DE700535248 /* StatisticVM.swift */; };
+		FCB5883C2950FF3E00DF1A57 /* SwiftyStoreKit in Frameworks */ = {isa = PBXBuildFile; productRef = FCB5883B2950FF3E00DF1A57 /* SwiftyStoreKit */; };
+		FCB588402952209500DF1A57 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB5883F2952209500DF1A57 /* StoreKit.framework */; };
+		FCB588422952451A00DF1A57 /* hideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB588412952451A00DF1A57 /* hideKeyboard.swift */; };
+		FCDEA6B2294BC824008F54EA /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDEA6B1294BC824008F54EA /* Login.swift */; };
+		FCE834F629413FB40041A37B /* loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE834F529413FB40041A37B /* loader.swift */; };
+		FCE834FA294140000041A37B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE834F9294140000041A37B /* UserModel.swift */; };
+		FCE834FC294140F10041A37B /* UserVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE834FB294140F10041A37B /* UserVM.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1746052E03160869C79DAF1D /* Pods-TiktokAnalyzer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiktokAnalyzer.debug.xcconfig"; path = "Target Support Files/Pods-TiktokAnalyzer/Pods-TiktokAnalyzer.debug.xcconfig"; sourceTree = "<group>"; };
+		3E147E46F8BB314DFC833C81 /* Pods-TiktokAnalyzer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiktokAnalyzer.release.xcconfig"; path = "Target Support Files/Pods-TiktokAnalyzer/Pods-TiktokAnalyzer.release.xcconfig"; sourceTree = "<group>"; };
+		8364F950CDCE829088D18DE7 /* Pods_TiktokAnalyzer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiktokAnalyzer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8041FCF293B314A0028C366 /* StoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreVC.swift; sourceTree = "<group>"; };
+		E8041FD1293B324D0028C366 /* PKIAPHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKIAPHandler.swift; sourceTree = "<group>"; };
+		E8041FD3293B3BAB0028C366 /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		E8041FD5293B51EF0028C366 /* UserListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListVC.swift; sourceTree = "<group>"; };
+		E8041FD7293B55310028C366 /* Gilroy-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Semibold.ttf"; sourceTree = "<group>"; };
+		E8041FDA293B5D640028C366 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		E8041FDB293B5D640028C366 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		E8041FDC293B5D640028C366 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		E8041FDD293B5D640028C366 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		E8041FDE293B5D640028C366 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		E8041FDF293B5D640028C366 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		E8041FE0293B5D640028C366 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		E8041FE1293B5D640028C366 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		E8041FE8293B73940028C366 /* PointDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PointDetailView.xib; sourceTree = "<group>"; };
+		E8041FE9293B73940028C366 /* PointDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointDetailView.swift; sourceTree = "<group>"; };
+		E8198718293BB30200624B11 /* ProfileCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCVC.swift; sourceTree = "<group>"; };
+		E8198719293BB30200624B11 /* ProfileCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCVC.xib; sourceTree = "<group>"; };
+		E819871C293BB68100624B11 /* ProfileDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailsVC.swift; sourceTree = "<group>"; };
+		E819871E293BD81E00624B11 /* DownloadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadVC.swift; sourceTree = "<group>"; };
+		E85EAE4329366A9800C6F14C /* PointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointView.swift; sourceTree = "<group>"; };
+		E85EAE4529366AA900C6F14C /* PointView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PointView.xib; sourceTree = "<group>"; };
+		E88F2F59293BA3C30015B020 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		E88F2F5B293BA9F50015B020 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		E88F2F5D293BACE70015B020 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		E8DC5FCB293E54E2001136FB /* DownloadDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadDetailsVC.swift; sourceTree = "<group>"; };
+		E8EF9B9E292FAE39008734B5 /* TikAnalyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikAnalyzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8EF9BA1292FAE39008734B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8EF9BA8292FAE39008734B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8EF9BAA292FAE3A008734B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8EF9BAD292FAE3A008734B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8EF9BAF292FAE3A008734B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8EF9BB6292FBF23008734B5 /* splash_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_top.png; sourceTree = "<group>"; };
+		E8EF9BB9292FC0C0008734B5 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		E8EF9BBA292FC0C0008734B5 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		E8EF9BBB292FC0C0008734B5 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		E8EF9BBC292FC0C0008734B5 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		E8EF9BC1292FC135008734B5 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E8EF9BC4292FC818008734B5 /* STTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STTabbar.swift; sourceTree = "<group>"; };
+		E8EF9BC7292FC83D008734B5 /* MainTabVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabVC.swift; sourceTree = "<group>"; };
+		E8EF9BC9292FC9DA008734B5 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E8EF9BCC292FCA5F008734B5 /* ApiConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConfig.swift; sourceTree = "<group>"; };
+		E8EF9BCD292FCA5F008734B5 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		E8EF9BD0292FD7B2008734B5 /* Gilroy-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBold.otf"; sourceTree = "<group>"; };
+		E8EF9BD1292FD7B2008734B5 /* Gilroy-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Light.otf"; sourceTree = "<group>"; };
+		E8EF9BD4292FD86E008734B5 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		FC4CB4C92943C7D900D483DE /* tryLater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryLater.swift; sourceTree = "<group>"; };
+		FC62BD582949295500DACF47 /* DownloadVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadVM.swift; sourceTree = "<group>"; };
+		FC62BD5A2949296B00DACF47 /* DownloadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadModel.swift; sourceTree = "<group>"; };
+		FC9EC0B8296DFADC0005AE70 /* userIdVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userIdVM.swift; sourceTree = "<group>"; };
+		FCA5EE3A29426DD100535248 /* statisticsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = statisticsModel.swift; sourceTree = "<group>"; };
+		FCA5EE3C29426DE700535248 /* StatisticVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticVM.swift; sourceTree = "<group>"; };
+		FCB5883F2952209500DF1A57 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FCB588412952451A00DF1A57 /* hideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hideKeyboard.swift; sourceTree = "<group>"; };
+		FCDEA6B1294BC824008F54EA /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		FCE834F529413FB40041A37B /* loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loader.swift; sourceTree = "<group>"; };
+		FCE834F9294140000041A37B /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		FCE834FB294140F10041A37B /* UserVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVM.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8EF9B9B292FAE39008734B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB588402952209500DF1A57 /* StoreKit.framework in Frameworks */,
+				7E7B3AA3CB32FFF0A16E27E2 /* Pods_TiktokAnalyzer.framework in Frameworks */,
+				FCB5883C2950FF3E00DF1A57 /* SwiftyStoreKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F183F0F1CCA885B5FD5B3AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCB5883F2952209500DF1A57 /* StoreKit.framework */,
+				8364F950CDCE829088D18DE7 /* Pods_TiktokAnalyzer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		350921F3C4EE240752DDD13E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1746052E03160869C79DAF1D /* Pods-TiktokAnalyzer.debug.xcconfig */,
+				3E147E46F8BB314DFC833C81 /* Pods-TiktokAnalyzer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E8041FD9293B5D640028C366 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				E8041FDA293B5D640028C366 /* TPKeyboardAvoidingScrollView.h */,
+				E8041FDB293B5D640028C366 /* TPKeyboardAvoidingCollectionView.h */,
+				E8041FDC293B5D640028C366 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				E8041FDD293B5D640028C366 /* TPKeyboardAvoidingTableView.m */,
+				E8041FDE293B5D640028C366 /* TPKeyboardAvoidingScrollView.m */,
+				E8041FDF293B5D640028C366 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				E8041FE0293B5D640028C366 /* TPKeyboardAvoidingCollectionView.m */,
+				E8041FE1293B5D640028C366 /* TPKeyboardAvoidingTableView.h */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		E85EAE422936696D00C6F14C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E8041FE9293B73940028C366 /* PointDetailView.swift */,
+				E8041FE8293B73940028C366 /* PointDetailView.xib */,
+				E85EAE4329366A9800C6F14C /* PointView.swift */,
+				E85EAE4529366AA900C6F14C /* PointView.xib */,
+				E8198718293BB30200624B11 /* ProfileCVC.swift */,
+				E8198719293BB30200624B11 /* ProfileCVC.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E8EF9B95292FAE39008734B5 = {
+			isa = PBXGroup;
+			children = (
+				E8EF9BA0292FAE39008734B5 /* TiktokAnalyzer */,
+				E8EF9B9F292FAE39008734B5 /* Products */,
+				350921F3C4EE240752DDD13E /* Pods */,
+				0F183F0F1CCA885B5FD5B3AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8EF9B9F292FAE39008734B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8EF9B9E292FAE39008734B5 /* TikAnalyzer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8EF9BA0292FAE39008734B5 /* TiktokAnalyzer */ = {
+			isa = PBXGroup;
+			children = (
+				FC39A595294BA70400776348 /* Sign In */,
+				FCE834F829413FDC0041A37B /* ViewModel */,
+				FCE834F729413FD40041A37B /* Model */,
+				FCE834F429413FA10041A37B /* Extensions */,
+				E85EAE422936696D00C6F14C /* Views */,
+				E8EF9BCB292FCA5F008734B5 /* Common */,
+				E8EF9BC6292FC836008734B5 /* Screens */,
+				E8EF9BC3292FC811008734B5 /* Library */,
+				E8EF9BB8292FC0C0008734B5 /* Fonts */,
+				E8EF9BB5292FBDE0008734B5 /* Graphics */,
+				E8EF9BA1292FAE39008734B5 /* AppDelegate.swift */,
+				E8EF9BA7292FAE39008734B5 /* Main.storyboard */,
+				E8EF9BAA292FAE3A008734B5 /* Assets.xcassets */,
+				E8EF9BAC292FAE3A008734B5 /* LaunchScreen.storyboard */,
+				E8EF9BAF292FAE3A008734B5 /* Info.plist */,
+			);
+			path = TiktokAnalyzer;
+			sourceTree = "<group>";
+		};
+		E8EF9BB5292FBDE0008734B5 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				E8EF9BB6292FBF23008734B5 /* splash_top.png */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		E8EF9BB8292FC0C0008734B5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E88F2F5D293BACE70015B020 /* Gilroy-Regular.ttf */,
+				E88F2F5B293BA9F50015B020 /* Gilroy-Medium.ttf */,
+				E8EF9BD4292FD86E008734B5 /* Gilroy-Bold.ttf */,
+				E8EF9BD0292FD7B2008734B5 /* Gilroy-ExtraBold.otf */,
+				E8EF9BD1292FD7B2008734B5 /* Gilroy-Light.otf */,
+				E8041FD7293B55310028C366 /* Gilroy-Semibold.ttf */,
+				E8EF9BC1292FC135008734B5 /* Poppins-ExtraBold.ttf */,
+				E8EF9BB9292FC0C0008734B5 /* Poppins-Medium.ttf */,
+				E8EF9BBA292FC0C0008734B5 /* Poppins-Regular.ttf */,
+				E8EF9BBB292FC0C0008734B5 /* Poppins-Bold.ttf */,
+				E8EF9BBC292FC0C0008734B5 /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E8EF9BC3292FC811008734B5 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				E8041FD9293B5D640028C366 /* TPKeyboardAvoiding */,
+				E8041FD1293B324D0028C366 /* PKIAPHandler.swift */,
+				E8EF9BC4292FC818008734B5 /* STTabbar.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		E8EF9BC6292FC836008734B5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E8041FD3293B3BAB0028C366 /* SettingsVC.swift */,
+				E8041FCF293B314A0028C366 /* StoreVC.swift */,
+				E8EF9BC7292FC83D008734B5 /* MainTabVC.swift */,
+				E8EF9BC9292FC9DA008734B5 /* LoginVC.swift */,
+				E8041FD5293B51EF0028C366 /* UserListVC.swift */,
+				E88F2F59293BA3C30015B020 /* ProfileVC.swift */,
+				E819871C293BB68100624B11 /* ProfileDetailsVC.swift */,
+				E819871E293BD81E00624B11 /* DownloadVC.swift */,
+				E8DC5FCB293E54E2001136FB /* DownloadDetailsVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E8EF9BCB292FCA5F008734B5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E8EF9BCC292FCA5F008734B5 /* ApiConfig.swift */,
+				E8EF9BCD292FCA5F008734B5 /* Utility.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FC39A595294BA70400776348 /* Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				FCDEA6B1294BC824008F54EA /* Login.swift */,
+			);
+			path = "Sign In";
+			sourceTree = "<group>";
+		};
+		FCE834F429413FA10041A37B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FCE834F529413FB40041A37B /* loader.swift */,
+				FC4CB4C92943C7D900D483DE /* tryLater.swift */,
+				FCB588412952451A00DF1A57 /* hideKeyboard.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FCE834F729413FD40041A37B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCE834F9294140000041A37B /* UserModel.swift */,
+				FCA5EE3A29426DD100535248 /* statisticsModel.swift */,
+				FC62BD5A2949296B00DACF47 /* DownloadModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FCE834F829413FDC0041A37B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FCE834FB294140F10041A37B /* UserVM.swift */,
+				FCA5EE3C29426DE700535248 /* StatisticVM.swift */,
+				FC62BD582949295500DACF47 /* DownloadVM.swift */,
+				FC9EC0B8296DFADC0005AE70 /* userIdVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8EF9B9D292FAE39008734B5 /* TikAnalyzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8EF9BB2292FAE3A008734B5 /* Build configuration list for PBXNativeTarget "TikAnalyzer" */;
+			buildPhases = (
+				BEDA637B288272133ABB7652 /* [CP] Check Pods Manifest.lock */,
+				E8EF9B9A292FAE39008734B5 /* Sources */,
+				E8EF9B9B292FAE39008734B5 /* Frameworks */,
+				E8EF9B9C292FAE39008734B5 /* Resources */,
+				04D651B30E5C7E9E013EDA53 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TikAnalyzer;
+			packageProductDependencies = (
+				FCB5883B2950FF3E00DF1A57 /* SwiftyStoreKit */,
+			);
+			productName = TiktokAnalyzer;
+			productReference = E8EF9B9E292FAE39008734B5 /* TikAnalyzer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8EF9B96292FAE39008734B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E8EF9B9D292FAE39008734B5 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E8EF9B99292FAE39008734B5 /* Build configuration list for PBXProject "TikAnalyzer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8EF9B95292FAE39008734B5;
+			packageReferences = (
+				FCB5883A2950FF3E00DF1A57 /* XCRemoteSwiftPackageReference "SwiftyStoreKit" */,
+			);
+			productRefGroup = E8EF9B9F292FAE39008734B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8EF9B9D292FAE39008734B5 /* TikAnalyzer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8EF9B9C292FAE39008734B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8EF9BAE292FAE3A008734B5 /* LaunchScreen.storyboard in Resources */,
+				E88F2F5C293BA9F50015B020 /* Gilroy-Medium.ttf in Resources */,
+				E8EF9BC2292FC135008734B5 /* Poppins-ExtraBold.ttf in Resources */,
+				E88F2F5E293BACE70015B020 /* Gilroy-Regular.ttf in Resources */,
+				E8041FEA293B73950028C366 /* PointDetailView.xib in Resources */,
+				E85EAE4629366AA900C6F14C /* PointView.xib in Resources */,
+				E819871B293BB30200624B11 /* ProfileCVC.xib in Resources */,
+				E8EF9BAB292FAE3A008734B5 /* Assets.xcassets in Resources */,
+				E8EF9BD5292FD86E008734B5 /* Gilroy-Bold.ttf in Resources */,
+				E8EF9BD3292FD7B2008734B5 /* Gilroy-Light.otf in Resources */,
+				E8EF9BBF292FC0C0008734B5 /* Poppins-Bold.ttf in Resources */,
+				E8EF9BA9292FAE39008734B5 /* Main.storyboard in Resources */,
+				E8EF9BBE292FC0C0008734B5 /* Poppins-Regular.ttf in Resources */,
+				E8041FD8293B55310028C366 /* Gilroy-Semibold.ttf in Resources */,
+				E8EF9BC0292FC0C0008734B5 /* Poppins-SemiBold.ttf in Resources */,
+				E8EF9BD2292FD7B2008734B5 /* Gilroy-ExtraBold.otf in Resources */,
+				E8EF9BB7292FBF23008734B5 /* splash_top.png in Resources */,
+				E8EF9BBD292FC0C0008734B5 /* Poppins-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04D651B30E5C7E9E013EDA53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TiktokAnalyzer/Pods-TiktokAnalyzer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TiktokAnalyzer/Pods-TiktokAnalyzer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TiktokAnalyzer/Pods-TiktokAnalyzer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEDA637B288272133ABB7652 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TiktokAnalyzer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8EF9B9A292FAE39008734B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8041FD4293B3BAB0028C366 /* SettingsVC.swift in Sources */,
+				FCE834FC294140F10041A37B /* UserVM.swift in Sources */,
+				E819871A293BB30200624B11 /* ProfileCVC.swift in Sources */,
+				FCE834F629413FB40041A37B /* loader.swift in Sources */,
+				E819871D293BB68100624B11 /* ProfileDetailsVC.swift in Sources */,
+				E8EF9BC5292FC818008734B5 /* STTabbar.swift in Sources */,
+				E8041FE5293B5D640028C366 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				E8041FE2293B5D640028C366 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				E8EF9BCA292FC9DA008734B5 /* LoginVC.swift in Sources */,
+				FCE834FA294140000041A37B /* UserModel.swift in Sources */,
+				E8DC5FCC293E54E2001136FB /* DownloadDetailsVC.swift in Sources */,
+				FCB588422952451A00DF1A57 /* hideKeyboard.swift in Sources */,
+				FCA5EE3B29426DD100535248 /* statisticsModel.swift in Sources */,
+				E8EF9BA2292FAE39008734B5 /* AppDelegate.swift in Sources */,
+				FC62BD592949295500DACF47 /* DownloadVM.swift in Sources */,
+				E8041FE4293B5D640028C366 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				FC4CB4CA2943C7D900D483DE /* tryLater.swift in Sources */,
+				E8041FD0293B314A0028C366 /* StoreVC.swift in Sources */,
+				FC62BD5B2949296B00DACF47 /* DownloadModel.swift in Sources */,
+				E8EF9BCF292FCA5F008734B5 /* Utility.swift in Sources */,
+				E8EF9BCE292FCA5F008734B5 /* ApiConfig.swift in Sources */,
+				E819871F293BD81E00624B11 /* DownloadVC.swift in Sources */,
+				FCDEA6B2294BC824008F54EA /* Login.swift in Sources */,
+				E8041FE3293B5D640028C366 /* TPKeyboardAvoidingTableView.m in Sources */,
+				FC9EC0B9296DFADC0005AE70 /* userIdVM.swift in Sources */,
+				E8041FD2293B324D0028C366 /* PKIAPHandler.swift in Sources */,
+				E88F2F5A293BA3C30015B020 /* ProfileVC.swift in Sources */,
+				E8EF9BC8292FC83D008734B5 /* MainTabVC.swift in Sources */,
+				E85EAE4429366A9800C6F14C /* PointView.swift in Sources */,
+				FCA5EE3D29426DE700535248 /* StatisticVM.swift in Sources */,
+				E8041FD6293B51EF0028C366 /* UserListVC.swift in Sources */,
+				E8041FEB293B73950028C366 /* PointDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E8EF9BA7292FAE39008734B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8EF9BA8292FAE39008734B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8EF9BAC292FAE3A008734B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8EF9BAD292FAE3A008734B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8EF9BB0292FAE3A008734B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8EF9BB1292FAE3A008734B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8EF9BB3292FAE3A008734B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1746052E03160869C79DAF1D /* Pods-TiktokAnalyzer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8G29Q2UF9S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TiktokAnalyzer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tik Analyzer";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speridian.TikAnalyzer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8EF9BB4292FAE3A008734B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E147E46F8BB314DFC833C81 /* Pods-TiktokAnalyzer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8G29Q2UF9S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TiktokAnalyzer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tik Analyzer";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speridian.TikAnalyzer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8EF9B99292FAE39008734B5 /* Build configuration list for PBXProject "TikAnalyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8EF9BB0292FAE3A008734B5 /* Debug */,
+				E8EF9BB1292FAE3A008734B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8EF9BB2292FAE3A008734B5 /* Build configuration list for PBXNativeTarget "TikAnalyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8EF9BB3292FAE3A008734B5 /* Debug */,
+				E8EF9BB4292FAE3A008734B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FCB5883A2950FF3E00DF1A57 /* XCRemoteSwiftPackageReference "SwiftyStoreKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bizz84/SwiftyStoreKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FCB5883B2950FF3E00DF1A57 /* SwiftyStoreKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCB5883A2950FF3E00DF1A57 /* XCRemoteSwiftPackageReference "SwiftyStoreKit" */;
+			productName = SwiftyStoreKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E8EF9B96292FAE39008734B5 /* Project object */;
+}

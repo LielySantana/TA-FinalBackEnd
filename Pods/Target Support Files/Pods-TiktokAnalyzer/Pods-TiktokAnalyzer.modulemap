@@ -1,0 +1,6 @@
+framework module Pods_TiktokAnalyzer {
+  umbrella header "Pods-TiktokAnalyzer-umbrella.h"
+
+  export *
+  module * { export * }
+}
